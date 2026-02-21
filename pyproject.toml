@@ -1,0 +1,12 @@
+[project]
+name = "IK-GenAI-Week3"
+version = "0.1.0"
+description = "Interview Kickstart GenAI course week-3"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gradio[mcp]>=6.6.0",
+    "mcpadapt>=0.1.20",
+    "smolagents[openai]>=1.24.0",
+    "textblob>=0.19.0",
+]
