@@ -1,6 +1,6 @@
 # Introduction
 
-This is a demo project for the **Interview Kickstart GenAI course, Week 3**. This repository demonstrates a Model Context Protocol (MCP) server for sentiment analysis (using TextBlob), and a client application with an AI agent that can interact with the server to perform sentiment analysis tasks.
+This is a demo project for the **Interview Kickstart GenAI course, Week 2**. This repository demonstrates a Model Context Protocol (MCP) server for sentiment analysis (using TextBlob), and a client application with an AI agent that can interact with the server to perform sentiment analysis tasks.
 
 ## Features
 
