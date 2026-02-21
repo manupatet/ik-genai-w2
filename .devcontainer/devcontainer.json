@@ -1,0 +1,11 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+  "name": "ik-genai-w3",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": "../"
+  },
+  "workspaceMount": "type=bind,source=${localWorkspaceFolder},target=/workspace",
+  "workspaceFolder": "/workspace"
+}
