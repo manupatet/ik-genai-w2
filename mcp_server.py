@@ -40,4 +40,7 @@ demo = gr.Interface(
 # Launch with MCP
 if __name__ == "__main__":
     # Launch Gradio with MCP support on default port (7860 or next free one)
-    demo.launch(mcp_server=True) 
+    demo.launch(
+        server_name="0.0.0.0",
+        server_port=7860,
+        mcp_server=True)
