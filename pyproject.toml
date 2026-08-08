@@ -1,13 +1,15 @@
 [project]
 name = "IK-GenAI-Week3"
 version = "0.1.0"
-description = "Interview Kickstart GenAI course week-3"
+description = "Interview Kickstart GenAI course week-2"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "fastmcp>=3.4.6",
     "finnhub-python>=2.4.27",
     "gradio[mcp]>=6.6.0",
     "mcpadapt>=0.1.20",
+    "plotly>=6.9.0",
     "smolagents[openai]>=1.24.0",
     "textblob>=0.19.0",
     "yfinance>=1.2.0",
